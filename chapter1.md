@@ -1,4 +1,4 @@
-# 3/15
+3/15
 
 ### 程式語言的評估
 
@@ -66,7 +66,28 @@
 * Dynamic Typing
 
 * Dynamic storage allocation
+
   * 執行才知道 type 或 allocate 的空間
+
+SIMULA
+
+* coroutines
+
+ALGO 68
+
+Pascal - 1971
+
+B
+
+C - 1972
+
+Prolog
+
+Ada
+
+Smalltalk
+
+* gui
 
 
 
