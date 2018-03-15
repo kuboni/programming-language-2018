@@ -27,7 +27,7 @@
 
 ##### Regular Language
 
-M = \(Q, Σ, δ, $$q_0$$$$q_0$$, F\)
+M = \(Q, Σ, δ, $$q_0$$$$q_0$$  , F\)
 
 #### Grammar
 
