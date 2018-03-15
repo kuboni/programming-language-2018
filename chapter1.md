@@ -20,6 +20,7 @@
   * expressiveness
 
 * Reliability
+
   * type checking
   * exception handling
   * aliasing
@@ -59,6 +60,13 @@
 * functional language
 * logical language
 * object-oriented language
+
+---
+
+* Dynamic Typing
+
+* Dynamic storage allocation
+  * 執行才知道 type 或 allocate 的空間
 
 
 
