@@ -13,10 +13,12 @@
   * syntax design
 
 * Writability
+
   * abstraction
     * process abstraction \(subprogram\)
     * data abstraction
   * expressiveness
+
 * Reliability
   * type checking
   * exception handling
@@ -49,11 +51,14 @@
   3. 解碼指令
   4. 執行指令
 
- 
+---
 
- 
+### 程式語言的分類
 
- 
+* imperative language
+* functional language
+* logical language
+* object-oriented language
 
 
 
