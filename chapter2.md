@@ -8,32 +8,26 @@
 4. \(optimzation\)
 5. code generator
 
-
-
 #### Terminology
 
 * lexeme \( word \)
 
 * token = lexeme type
 
-  * e.g. identifier, init_literal, plus_op ...
+  * e.g. identifier, init\_literal, plus\_op ...
 
 * sentence = lexeme + lexeme + ...
 
 * language = sentence + sentence + ...
-
-
 
 #### Language
 
 * Generators
 * Recognizers
 
-
-
 ##### Regular Language
 
-M = \(Q, Σ, δ, $$q_0$$, F\)
+M = \(Q, Σ, δ, $$q_0$$$$q_0$$, F\)
 
 #### Grammar
 
@@ -44,8 +38,6 @@ M = \(Q, Σ, δ, $$q_0$$, F\)
     * non-terminal symbol
     * terminal symbol
   * 
-
-
 
 
 
