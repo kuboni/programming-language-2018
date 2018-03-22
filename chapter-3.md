@@ -60,7 +60,18 @@ lexical analysis 實用的工具
   * strings or termianls \( sentence \)
     * w,x,y,z
 
+-
 
+* problem
+  * Top-down parsers
+    * LL parsers
+    * implementation
+      * Recursive descent parser
+      * table driven
+  * Bottom-up parsers
+    * LR family
+  * Complexity of parsing
+    * O\($$x = y$$\), when parser works for ambiguous
 
 #### Recursive-Descent Parsing
 
