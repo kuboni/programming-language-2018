@@ -72,6 +72,7 @@ lexical analysis 實用的工具
     * LR family
   * Complexity of parsing
     * O\($$n^3$$\), when parser works for ambiguous
+    * O\($$n$$\), when parser works for unambiguous
 
 #### Recursive-Descent Parsing
 
