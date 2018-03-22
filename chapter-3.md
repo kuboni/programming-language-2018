@@ -36,7 +36,10 @@ lexemes -&gt; tokens
 
 #### Recursive-Descent Parsing
 
+##### Top Down
 
+* disjoint
+  * left factoring
 
-
+##### Bottom up
 
