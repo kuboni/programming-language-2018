@@ -25,5 +25,16 @@ lexemes -&gt; tokens
   * ![](/assets/state-diagram.png)
 * state + table-driven 
 
+-
+
+* getChar
+* addChar
+* getNonBlank
+* lookup
+
+-
+
+
+
 
 
