@@ -37,6 +37,10 @@ M = \(Q, Σ, δ, q0, F\)
   * abstraction
     * non-terminal symbol
     * terminal symbol
+* Derivation
+  * Parse Tree
+    * ambiguity
+    * Associativity \(+\) - overflow
   * 
 
 
