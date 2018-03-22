@@ -78,6 +78,7 @@ M = \(Q, Σ, δ, q0, F\)
   * 執行前後的狀態
   * Precondition\(P\), Postcondition\(Q\)
   * e.g.![](/assets/axiomatic.png)
+  * 推斷程式的正確性（驗證）
 
 
 
