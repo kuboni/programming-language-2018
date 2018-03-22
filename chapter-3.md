@@ -71,7 +71,7 @@ lexical analysis 實用的工具
   * Bottom-up parsers
     * LR family
   * Complexity of parsing
-    * O\($$x = y$$\), when parser works for ambiguous
+    * O\($$n^3$$\), when parser works for ambiguous
 
 #### Recursive-Descent Parsing
 
