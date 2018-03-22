@@ -14,7 +14,7 @@
   * Efficiency
   * Portability
 
-### Lexical Analysis
+#### Lexical Analysis
 
 lexemes -&gt; tokens
 
@@ -27,12 +27,40 @@ lexemes -&gt; tokens
 
 -
 
+lexical analysis 實用的工具
+
 * getChar
 * addChar
 * getNonBlank
 * lookup
 
+---
+
+### Parser
+
+* purpose
+  * 找到syntax error，提供錯誤訊息
+  * 為syntactically coreect progrm 建立parsing tree，或trace parsing tree
+
 -
+
+* 兩種形式的parser
+  * top-down parser
+  * bottom-up parser
+
+-
+
+* grammar 的 notation
+  * terminal symbols \( lexemes \)
+    * a,b,....
+  * nonterminal symbols \( abstractions \)
+    * A,B,...
+  * Termianls or nontermianls
+    * W,X,Y,Z
+  * strings or termianls \( sentence \)
+    * w,x,y,z
+
+
 
 #### Recursive-Descent Parsing
 
@@ -42,4 +70,6 @@ lexemes -&gt; tokens
   * left factoring
 
 ##### Bottom up
+
+
 
