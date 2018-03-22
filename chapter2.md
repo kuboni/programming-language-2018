@@ -41,7 +41,17 @@ M = \(Q, Σ, δ, q0, F\)
   * Parse Tree
     * ambiguity
     * Associativity \(+\) - overflow
-  * 
+* Extended BNF \(EBNF\)
+
+  * optional parts
+
+  * altermative parts
+
+  * repetitions
+
+#### Static Semantics
+
+* type checking, declaration... 等等的辨識 用 BNF 會太大 -&gt; context-sensitive 
 
 
 
