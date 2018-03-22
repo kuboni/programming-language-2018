@@ -80,6 +80,10 @@ M = \(Q, Σ, δ, q0, F\)
   * inference rule
   * e.g.![](/assets/axiomatic.png)
   * 推斷程式的正確性（驗證）
+  * Rule of Consequence
+    * ![](/assets/roc.png)
+    * 條件變嚴
+  * 
 
 
 
