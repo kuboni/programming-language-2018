@@ -49,9 +49,35 @@ M = \(Q, Σ, δ, q0, F\)
 
   * repetitions
 
-#### Static Semantics
+#### Semantics
+
+##### Static Semantics
 
 * type checking, declaration... 等等的辨識 用 BNF 會太大 -&gt; context-sensitive 
+
+-
+
+* Attribute Grammars
+  * CFG + Attributes + Attribute computation functions + predicate function
+  * Def : G = \(S, N, T, P\)
+  * type
+    * synthesized
+    * inherited
+  * e.g.
+
+##### Dynamic Semantics
+
+* Operational Semantics
+  * 描述機器狀態的變化
+  * Natural operational semantics: 只看結果
+  * Structural operational semantics: 除結果外也關心過程
+* Denotational Semantics
+  * 對應域與值域
+  * 以數學式表示Semantics
+* Axiomatic Semantics
+  * 執行前後的狀態
+  * Precondition\(P\), Postcondition\(Q\)
+  * e.g.![](/assets/axiomatic.png)
 
 
 
