@@ -77,6 +77,7 @@ M = \(Q, Σ, δ, q0, F\)
 * Axiomatic Semantics
   * 執行前後的狀態
   * Precondition\(P\), Postcondition\(Q\)
+  * inference rule
   * e.g.![](/assets/axiomatic.png)
   * 推斷程式的正確性（驗證）
 
