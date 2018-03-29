@@ -89,11 +89,7 @@ CONDITION
 
 \(null x\)
 
-
-
 ##### IF
-
-
 
 ##### cond
 
