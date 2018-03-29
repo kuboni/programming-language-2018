@@ -65,5 +65,14 @@ FUNCTION
 
 * \(defun \[function\_name\] \[parameters\] \[operand\]\)
 
+--
+
+CONDITION
+
+boolean value
+
+* T
+* NIL
+
 
 
