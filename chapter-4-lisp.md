@@ -41,6 +41,7 @@ assign data
 ### setq
 
 * setquote
+* \(setq \[name\] \[value\]\)
 
 ### let
 
@@ -69,10 +70,32 @@ FUNCTION
 
 CONDITION
 
-boolean value
+##### boolean value
 
 * T
 * NIL
+
+=&gt; predicate
+
+\(numberp x\)
+
+\(stringp x\)
+
+\(listp x\)
+
+\(symbolp x\)
+
+\(atom x\)
+
+\(null x\)
+
+
+
+##### IF
+
+
+
+##### cond
 
 
 
