@@ -26,11 +26,26 @@ substitution model
 
 -
 
-Quote
+#### Quote
 
 * quote
 * '
 * 避免compiler將 \( ambiguous
+
+-
+
+## 語法
+
+assign data
+
+### setq
+
+* setquote
+
+### let
+
+* 一次assign 多個變數
+* 其中變數為local
 
 
 
