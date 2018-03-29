@@ -47,5 +47,11 @@ assign data
 * 一次assign 多個變數
 * 其中變數為local
 
+### value
+
+* \(values :this :that\)
+
+* 多重賦值
+
 
 
