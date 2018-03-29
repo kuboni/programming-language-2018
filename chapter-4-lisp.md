@@ -21,12 +21,16 @@ substitution model
 | \(low &lt; x\)&&\(x &lt; high\) | \( &lt; low x high\) |
 |  |  |
 | if\(a==0\) return f\(x,y\) | \(if\(= a 0 |
-| else return g\(x,y\) |     \(f x y\) |
-|  |     \(g x y\)\) |
-
-
+| else return g\(x,y\) | \(f x y\) |
+|  | \(g x y\)\) |
 
 -
 
 Quote
+
+* quote
+* '
+* 避免compiler將 \( ambiguous
+
+
 
