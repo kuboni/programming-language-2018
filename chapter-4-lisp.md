@@ -93,5 +93,25 @@ CONDITION
 
 ##### cond
 
+--
+
+List Operations
+
+##### car
+
+*  return first member of a list
+
+##### cdr
+
+* return list without first
+
+##### null
+
+##### list
+
+##### length
+
+##### reverse
+
 
 
