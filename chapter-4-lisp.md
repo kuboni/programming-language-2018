@@ -59,3 +59,11 @@ FUNCTION
 
 #### lambda
 
+* 沒辦法被 reuse
+
+#### defun
+
+* \(defun \[function\_name\] \[parameters\] \[operand\]\)
+
+
+
