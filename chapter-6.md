@@ -101,5 +101,16 @@ quantifier
 
 left side : consequence      right side:antecedent
 
+#### Horn Clause
+
+* Headed : b sentence 只有 1 個
+* Headless : b sentence == 0
+
+---
+
+### Predictive Calculus
+
+![](/assets/predictive-calculus.png)
+
 
 
