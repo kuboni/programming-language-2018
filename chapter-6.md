@@ -21,6 +21,66 @@ declarative
 
 Example \(sorting\)
 
-ppt p5$$sort(old_list, new_list)  permute (old_list, new_list)  sorted (new_list)
-sorted (list)  j such that 1 j < n, list(j)  list (j+1)$$
+ppt p5$$$$
+
+![](/assets/prolog-sort.png)
+
+---
+
+#### predicate calculate \(謂詞演算\)
+
+proposition
+
+* 一個邏輯的描述是True 或 False
+
+-
+
+Axioms
+
+* 公理
+* e.g. Natural\(2\)
+
+-
+
+Symbolic Logic
+
+-
+
+Object
+
+* proposition
+* assertion
+
+1. variable
+2. constant
+
+-
+
+connective
+
+---
+
+Compound Terms
+
+* Fact的定義
+* e.g.
+  * student\(popo\)
+  * man\(john\)
+  * like\(popo, rs\)
+
+---
+
+proposition的形式
+
+* Fact
+  * father\(Bob, Bill\)
+* Query
+  * ?-father\(Bob, Bill\)
+
+-
+
+1. Atomic proposition
+2. Compound proposition
+
+
 
