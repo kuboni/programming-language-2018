@@ -112,5 +112,13 @@ left side : consequence      right side:antecedent
 
 ![](/assets/predictive-calculus.png)
 
+* resolution
+
+---
+
+### Unification
+
+* instantiation : 把所有database中可能的object帶入variable，以找到符合的rule
+
 
 
