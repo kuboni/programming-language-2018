@@ -51,8 +51,9 @@ Object
 * proposition
 * assertion
 
-1. variable
-2. constant
+* variable
+
+* constant
 
 -
 
@@ -81,6 +82,24 @@ proposition的形式
 
 1. Atomic proposition
 2. Compound proposition
+
+---
+
+operator
+
+![](/assets/operator-1.png)
+
+quantifier
+
+![](/assets/quantifier.png)
+
+---
+
+### Clausal Form
+
+![](/assets/clausal-form.png)
+
+left side : consequence      right side:antecedent
 
 
 
