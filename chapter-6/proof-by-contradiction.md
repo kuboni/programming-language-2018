@@ -15,15 +15,18 @@
 
 Rule Statement
 
-*  and  - , 
+* and  - , 
 * Imply - :-
 
 Goal Statement
 
 subgoal - matching, satisfying, resolution
 
-* bottom-up
-* Top-down
+* bottom-up : forward-chaining
+* Top-down : backward-chaining
+  * prolog
+
+
 
 
 
