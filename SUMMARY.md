@@ -7,4 +7,5 @@
 * [Chapter 4 ](chapter-4-lisp.md)
   * [LISP](chapter-4-lisp/lisp.md)
   * [Perl](chapter-4-lisp/perl.md)
+* [Chapter 6](chapter-6.md)
 
