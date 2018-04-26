@@ -48,6 +48,9 @@ Type Binding
   * explicit declaration
   * implicit declaration
 * dynamic type binding
+
+
+
 * Binding Lifetime
   * Allocation
   * Deallocation
