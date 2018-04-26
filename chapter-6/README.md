@@ -1,4 +1,4 @@
-## Logic Programming Language
+# Chapter 6
 
 Logic
 
@@ -6,8 +6,6 @@ Logic
   * deductive - sentential logic
   * inductive
 * informal
-
----
 
 symbolic
 
@@ -17,17 +15,13 @@ declarative
 
 * 值的出現需賦予值
 
----
-
 Example \(sorting\)
 
 ppt p5$$$$
 
-![](/assets/prolog-sort.png)
+![](../.gitbook/assets/prolog-sort.png)
 
----
-
-#### predicate calculate \(謂詞演算\)
+### predicate calculate \(謂詞演算\)
 
 proposition
 
@@ -50,16 +44,12 @@ Object
 
 * proposition
 * assertion
-
 * variable
-
 * constant
 
 -
 
 connective
-
----
 
 Compound Terms
 
@@ -68,8 +58,6 @@ Compound Terms
   * student\(popo\)
   * man\(john\)
   * like\(popo, rs\)
-
----
 
 proposition的形式
 
@@ -83,46 +71,35 @@ proposition的形式
 1. Atomic proposition
 2. Compound proposition
 
----
-
 operator
 
-![](/assets/operator-1.png)
+![](../.gitbook/assets/operator-1.png)
 
 quantifier
 
-![](/assets/quantifier.png)
+![](../.gitbook/assets/quantifier.png)
 
----
+## Clausal Form
 
-### Clausal Form
+![](../.gitbook/assets/clausal-form.png)
 
-![](/assets/clausal-form.png)
+left side : consequence right side:antecedent
 
-left side : consequence      right side:antecedent
-
-#### Horn Clause
+### Horn Clause
 
 * Headed : b sentence 只有 1 個
 * Headless : b sentence == 0
 
----
+## Predictive Calculus
 
-### Predictive Calculus
-
-![](/assets/predictive-calculus.png)
+![](../.gitbook/assets/predictive-calculus.png)
 
 * resolution
 
----
-
-### Unification
+## Unification
 
 * instantiation : 把所有database中可能的object帶入variable，以找到符合的rule
   * 若失敗，backtrack反
 * 反證法
-
   * high complexity
-
-
 

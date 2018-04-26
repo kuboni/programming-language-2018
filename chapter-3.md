@@ -1,3 +1,5 @@
+# Chapter 3
+
 3/22
 
 ## Lexical and Syntax Analysis
@@ -22,7 +24,7 @@ lexemes -&gt; tokens
 * state \(transition\) diagram
   * finitie automata
   * recognize regular language
-  * ![](/assets/state-diagram.png)
+  * ![](.gitbook/assets/state-diagram.png)
 * state + table-driven 
 
 -
@@ -33,8 +35,6 @@ lexical analysis 實用的工具
 * addChar
 * getNonBlank
 * lookup
-
----
 
 ### Parser
 
@@ -71,19 +71,15 @@ lexical analysis 實用的工具
   * Bottom-up parsers
     * LR family
   * Complexity of parsing
-    * O\($$n^3$$\), when parser works for ambiguous
-    * O\($$n$$\), when parser works for unambiguous
-
----
+    * O\(\), when parser works for ambiguous
+    * O\(\), when parser works for unambiguous
 
 #### Recursive-Descent Parsing
 
-##### Top Down
+**Top Down**
 
 * disjoint
   * left factoring
 
-##### Bottom up
-
-
+**Bottom up**
 

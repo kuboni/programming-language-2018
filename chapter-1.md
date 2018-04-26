@@ -1,31 +1,25 @@
+# Chapter 1
+
 3/15
 
-### 程式語言的評估
+## 程式語言的評估
 
 * Readability
-
   * Simplicity
-
   * Orthogonality
-
   * data type
-
   * syntax design
-
 * Writability
-
   * abstraction
     * process abstraction \(subprogram\)
     * data abstraction
   * expressiveness
-
 * Reliability
-
   * type checking
   * exception handling
   * aliasing
 
-#### Cost
+### Cost
 
 一個針對某個程式語言總花費的函數
 
@@ -42,9 +36,7 @@
 * 普遍性
 * 詳細的Documents
 
----
-
-### von Neumann Architecture
+## von Neumann Architecture
 
 * Fetch-execute-cycle
 * 1. 抓出指令
@@ -52,21 +44,14 @@
   3. 解碼指令
   4. 執行指令
 
----
-
-### 程式語言的分類
+## 程式語言的分類
 
 * imperative language
 * functional language
 * logical language
 * object-oriented language
-
----
-
 * Dynamic Typing
-
 * Dynamic storage allocation
-
   * 執行才知道 type 或 allocate 的空間
 
 SIMULA
@@ -88,6 +73,4 @@ Ada
 Smalltalk
 
 * gui
-
-
 

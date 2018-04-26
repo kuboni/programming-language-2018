@@ -1,17 +1,11 @@
+# Chapter 4
+
 regular expression
 
-### data type 
+## data type
 
-*  scalar
+* scalar
 * scalar array
 * hash array
 * references
-
-
-
-
-
-
-
-
 

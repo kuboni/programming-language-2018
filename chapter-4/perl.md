@@ -1,36 +1,36 @@
+# Perl
+
 regular expression
 
-### data type
+## data type
 
 * scalar
 * scalar array
 * hash array
 * references
 
-#### scalar
+### scalar
 
 * e.g. my $x = "ginedoc"
 * my / local
 * $
 
-#### scalar array
+### scalar array
 
 > my @array;
 
 * start with @
 
-#### hash array
+### hash array
 
 > my %hash = \('i1'=&gt;"aaa", 'i2'=&gt;"bbb"\);
 
 * start with %
 
-#### References
+### References
 
 * $
 * \@
 * \%
 * \&
-
-
 

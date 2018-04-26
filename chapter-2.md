@@ -1,3 +1,5 @@
+# Chapter 2
+
 3/15
 
 ## Syntax and Semantics
@@ -8,28 +10,24 @@
 4. \(optimzation\)
 5. code generator
 
-#### Terminology
+### Terminology
 
 * lexeme \( word \)
-
 * token = lexeme type
-
   * e.g. identifier, init\_literal, plus\_op ...
-
 * sentence = lexeme + lexeme + ...
-
 * language = sentence + sentence + ...
 
-#### Language
+### Language
 
 * Generators
 * Recognizers
 
-##### Regular Language
+#### Regular Language
 
 M = \(Q, Σ, δ, q0, F\)
 
-#### Grammar
+### Grammar
 
 * Context-Free Grammar, CFG
 * Backus-Naur Form, BNF
@@ -42,16 +40,13 @@ M = \(Q, Σ, δ, q0, F\)
     * ambiguity
     * Associativity \(+\) - overflow
 * Extended BNF \(EBNF\)
-
   * optional parts
-
   * altermative parts
-
   * repetitions
 
-#### Semantics
+### Semantics
 
-##### Static Semantics
+#### Static Semantics
 
 * type checking, declaration... 等等的辨識 用 BNF 會太大 -&gt; context-sensitive 
 
@@ -65,7 +60,7 @@ M = \(Q, Σ, δ, q0, F\)
     * inherited
   * e.g.
 
-##### Dynamic Semantics
+#### Dynamic Semantics
 
 * Operational Semantics
   * 描述機器狀態的變化
@@ -78,12 +73,10 @@ M = \(Q, Σ, δ, q0, F\)
   * 執行前後的狀態
   * Precondition\(P\), Postcondition\(Q\)
   * inference rule
-  * e.g.![](/assets/axiomatic.png)
+  * e.g.![](.gitbook/assets/axiomatic.png)
   * 推斷程式的正確性（驗證）
   * Rule of Consequence
-    * ![](/assets/roc.png)
+    * ![](.gitbook/assets/roc.png)
     * 條件變嚴
   * 
-
-
 

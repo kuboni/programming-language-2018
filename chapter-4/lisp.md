@@ -1,3 +1,5 @@
+# LISP
+
 ## LISP
 
 functional programming
@@ -51,7 +53,6 @@ assign data
 ### value
 
 * \(values :this :that\)
-
 * 多重賦值
 
 --
@@ -70,7 +71,7 @@ FUNCTION
 
 CONDITION
 
-##### boolean value
+**boolean value**
 
 * T
 * NIL
@@ -89,29 +90,27 @@ CONDITION
 
 \(null x\)
 
-##### IF
+**IF**
 
-##### cond
+**cond**
 
 --
 
 List Operations
 
-##### car
+**car**
 
 * return first member of a list
 
-##### cdr
+**cdr**
 
 * return list without first
 
-##### null
+**null**
 
-##### list
+**list**
 
-##### length
+**length**
 
-##### reverse
-
-
+**reverse**
 

@@ -1,3 +1,5 @@
+# introduce
+
 * Term
   * constant
   * variable
@@ -10,8 +12,6 @@
 * Variable
 * Instantiatioin
 * Structure
-
----
 
 Rule Statement
 
@@ -32,16 +32,9 @@ subgoal - matching, satisfying, resolution
   * redo\(backtrack\)
   * fail
 
----
-
 List
 
 * \[\] empty list
 * member
-  * > member\(X, \[X\|List\]\)
-    > member\(X, \[Y\|List\]\) :- member\(X, List\)
-
-
-
-
+  * > member\(X, \[X\|List\]\) member\(X, \[Y\|List\]\) :- member\(X, List\)
 
