@@ -7,7 +7,7 @@ description: concurrency
 four level
 
 * machine instruction level
-* high-level programming language statement level
-* unit level
+* **high-level programming language statement level**
+* **unit level**
 * program level
 
