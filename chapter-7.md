@@ -21,6 +21,17 @@ description: 'Names, Binding, Scope'
 * Struct 邊界對齊
   * \#pragma pack\(\[num\]\)
   * \#pragma pack\(\)
+  * 變數大小
+    * 整數
+      * short -&gt; 2 bytes
+      * int -&gt; 8 bytes
+      * long -&gt; 8 bytes
+    * 浮點數
+      * float -&gt; 4 bytes
+      * double -&gt; 8 bytes
+      * long double -&gt; 12 bytes
+    * 字元
+      * char -&gt; 1 byte
 
 Value
 
