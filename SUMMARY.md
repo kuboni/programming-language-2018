@@ -10,5 +10,6 @@
 * [Chapter 6](chapter-6/README.md)
   * [introduce](chapter-6/introduce.md)
 * [Chapter 7](chapter-7.md)
-* [Chapter 8](chapter-8.md)
+* [Chapter 8](chapter-8/README.md)
+  * [Process Synchronization](chapter-8/process-synchronization.md)
 
