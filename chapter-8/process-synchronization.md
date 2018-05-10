@@ -52,9 +52,10 @@ do{
 * hardware-based
   * test\_and\_set\(\)
   * compare\_and\_swap\(\)
+  * test\_and\_set\(\) - with boundary condition
 
 {% code-tabs %}
-{% code-tabs-item title="test and set" %}
+{% code-tabs-item title="test and set - mutual exclusive" %}
 ```c
 boolean test_and_set(boolean *target){
     boolean rv = *target;
@@ -66,7 +67,7 @@ do{
     while(test_and_set(&lock));
     // critical section
     
-    lock = flase;
+    lock = false;
     // remainder section
 } while(true);
 ```
@@ -74,7 +75,7 @@ do{
 {% endcode-tabs %}
 
 {% code-tabs %}
-{% code-tabs-item title="compare and swap" %}
+{% code-tabs-item title="compare and swap - mutual exclusive + progress" %}
 ```c
 int compare_and_swap(int *value, int expected, int new_value){
     int temp = *value;
@@ -97,5 +98,16 @@ do{
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-
+{% code-tabs %}
+{% code-tabs-item title="test and set - mutual exclusive + progress + boundary condition" %}
+```c
+do{
+    waiting[i] = true;
+    key = true;
+    while(waiting[i] && key)
+        key = test_and_set(&lock);
+    waiting[i] = false;
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
