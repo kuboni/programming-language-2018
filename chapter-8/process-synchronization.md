@@ -30,7 +30,7 @@ do{
 
 ## synchronization with preemptive kernel
 
-* software-based
+### software-based
 
 {% code-tabs %}
 {% code-tabs-item title="peterson\'s solution" %}
@@ -49,10 +49,11 @@ do{
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-* hardware-based
-  * test\_and\_set\(\)
-  * compare\_and\_swap\(\)
-  * test\_and\_set\(\) - with boundary condition
+### hardware-based
+
+* test\_and\_set\(\)
+* compare\_and\_swap\(\)
+* test\_and\_set\(\) - with boundary condition
 
 {% code-tabs %}
 {% code-tabs-item title="test and set - mutual exclusive" %}
@@ -127,4 +128,6 @@ do{
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+
 
