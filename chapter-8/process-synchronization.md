@@ -107,6 +107,14 @@ do{
     while(waiting[i] && key)
         key = test_and_set(&lock);
     waiting[i] = false;
+    
+    /* critical section */
+    
+    j = (i+1) % n;
+    while((j!=i) && !waiting[j])
+        j = (j＋１）　％　ｎ；
+        
+    
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
