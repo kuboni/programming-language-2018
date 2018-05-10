@@ -12,6 +12,9 @@ description: OS review
 
 
 *  critical section
+  * Mutual Exclsive
+  * Progress
+  * Boundary
 
 {% code-tabs %}
 {% code-tabs-item title="critical section" %}
@@ -19,15 +22,23 @@ description: OS review
 do{
     // entry section
     // critical section
-    // remainer section
+    // remainder section
 } while(true)
-
-
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-## synchornization with preemptive kernel
+## synchronization with preemptive kernel
 
-
+{% code-tabs %}
+{% code-tabs-item title="peterson\'s solution" %}
+```c
+do{
+    flag[i] = true;
+    turn = j;/ 禮讓
+    while(flag[j]&&trun==j);
+        
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
