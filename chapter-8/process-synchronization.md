@@ -101,6 +101,9 @@ do{
 {% code-tabs %}
 {% code-tabs-item title="test and set - mutual exclusive + progress + boundary condition" %}
 ```c
+boolean waiting[n];
+boolean lock;
+
 do{
     waiting[i] = true;
     key = true;
