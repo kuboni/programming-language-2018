@@ -36,8 +36,13 @@ do{
 do{
     flag[i] = true;
     turn = j;/ 禮讓
-    while(flag[j]&&trun==j;;)l
-        
+    while(flag[j]&&trun==j);
+    
+    // critical section
+    flag[i] = false;
+    
+    // remainder section
+} while(true)        
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
