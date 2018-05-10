@@ -15,7 +15,9 @@ description: OS review
 
 ```c
 do{
-    // c
+    // entry section
+    // critical sectionon
+    // remain section
 
 ```
 
