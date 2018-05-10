@@ -12,7 +12,7 @@ description: OS review
 
 
 *  critical section
-  * Mutual Exclsive
+  * Mutual Exclusive
   * Progress
   * Boundary
 
@@ -83,7 +83,19 @@ int compare_and_swap(int *value, int expected, int new_value){
     
     return temp;
 }
+
+do{
+    while(compare_and_swap(&lock, 0, 1) != 0)
+        ; /* do nothing */
+        
+        /* critical section*/
+    
+    lock = 0;
+        /*remainder section*/
+} while(true);
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+
 
