@@ -49,8 +49,9 @@ do{
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-* single-processor
-  * test-and-set
+* hardware-based
+  * test\_and\_set\(\)
+  * compare\_and\_swap\(\)
 
 {% code-tabs %}
 {% code-tabs-item title="test and set" %}
@@ -68,6 +69,20 @@ do{
     lock = flase;
     // remainder section
 } while(true);
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="compare and swap" %}
+```c
+int compare_and_swap(int *value, int expected, int new_value){
+    int temp = *value;
+    if(*value == expected)
+        *value = new_value;
+    
+    return temp;
+}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
