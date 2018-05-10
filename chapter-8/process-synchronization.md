@@ -13,13 +13,19 @@ description: OS review
 
 *  critical section
 
+{% code-tabs %}
+{% code-tabs-item title="critical section" %}
 ```c
 do{
     // entry section
-    // critical sectionon
-    // remain section
+    // critical section
+    // remainer section
+} while(true)
+
 
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ## synchornization with preemptive kernel
 
