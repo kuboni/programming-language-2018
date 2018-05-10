@@ -36,7 +36,7 @@ do{
 do{
     flag[i] = true;
     turn = j;/ 禮讓
-    while(flag[j]&&trun==j);
+    while(flag[j]&&trun==j;;)l
         
 ```
 {% endcode-tabs-item %}
